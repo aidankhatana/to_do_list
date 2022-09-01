@@ -1,12 +1,12 @@
 <html>
   <body>
-    <h1>Add book</h1>
+    <h1>Add Task</h1>
     <form method='POST' action='/''>
       <input type='text' name='title'>
       <input type='submit' value='Add'>
     </form>
 
-    <h1>Books</h1>
+    <h1>To-do List:</h1>
     <table>
       {% for book in books %}
         <tr>
